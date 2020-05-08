@@ -10,6 +10,7 @@ h1, h2 {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
+  padding-bottom: 30px;
   width: 30%;
   height: 30%;
 }
@@ -36,6 +37,7 @@ h1, h2 {
     background-color: #484a48;
     height: 200px;
     color: #f0f0f0;
+    word-wrap: normal;
 }
 
 #lightgreybox {
@@ -44,4 +46,5 @@ h1, h2 {
     background-color: #f0f0f0;
     height: 200px;
     color: #484a48;
+    word-wrap: normal;
 }
