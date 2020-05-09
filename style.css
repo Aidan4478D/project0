@@ -7,8 +7,8 @@ h1, h2 {
 
 .space {
   padding: 20px;
-  font-size: 10px;
-
+  font-size: 25px;
+  font: Arial, sans-serif;
 }
 
 .center {
