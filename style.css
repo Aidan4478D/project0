@@ -41,7 +41,9 @@ h4 {
   height: 256px;
   font-size: 20px;
 }
-
+link:hover {
+    color: lightgray;
+}
 table {
     border: 2px solid white;
     border-collapse: collapse;
@@ -56,4 +58,26 @@ th, td {
 
 th {
     background-color: lightgray;
+}
+
+.centermargin {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-height: 500px) {
+    body {
+        background-color: white;
+    }
+    h5::before {
+        content: "Welcome to our Web Page!";
+    }
+}
+@media (max-height: 499px) {
+      body {
+          background-color: lightblue;
+      }
+      h5::before {
+      content: "Welcome!";
+    }
 }
