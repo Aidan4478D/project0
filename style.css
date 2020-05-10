@@ -41,9 +41,12 @@ h4, h5 {
   height: 256px;
   font-size: 20px;
 }
-link:hover {
-    color: lightgray;
+
+.space {
+  padding: 10px;
+  color: white;
 }
+
 table {
     border: 2px solid white;
     border-collapse: collapse;
@@ -77,8 +80,4 @@ th {
       text-align: center;
       content: "Welcome!";
     }
-}
-
-.space {
-  padding: 10px;
 }
