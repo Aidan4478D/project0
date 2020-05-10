@@ -42,26 +42,6 @@ h4 {
   font-size: 20px;
 }
 
-#greybox {
-    padding-left: 25%;
-    padding-right: 25%;
-    background-color: #484a48;
-    height: 200px;
-    color: #f0f0f0;
-    word-wrap: break-word;
-    display: flex;
-}
-
-#lightgreybox {
-    padding-left: 25%;
-    padding-right: 25%;
-    background-color: #f0f0f0;
-    height: 200px;
-    color: #484a48;
-    word-wrap: break-word;
-    display: flex;
-}
-
 table {
     border: 2px solid white;
     border-collapse: collapse;

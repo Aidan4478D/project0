@@ -1,8 +1,35 @@
 $color: #8f7222;
+$font: Arial, sans-serif;
 
-ul {
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: $color;
+p {
+  font: $font;
+}
+
+div {
+    ul {
+      text-align: center;
+      align-items: center;
+      font-size: 20px;
+      color: $color;
+    }
+}
+
+%homebox {
+    padding-left: 25%;
+    padding-right: 25%;
+    height: 200px;
+    word-wrap: break-word;
+    display: flex;
+}
+
+#greybox {
+    @extend %homebox;
+    background-color: #484a48;
+    color: #f0f0f0;
+}
+
+#lightgreybox {
+    @extend %homebox;
+    background-color: #f0f0f0;
+    color: #484a48;
 }
